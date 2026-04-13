@@ -1,6 +1,20 @@
-# 🎮 ToonTown Rewritten Doodle Trainer
+<table>
+<tr>
+<td>
 
-A simple automation tool designed to help **AFK train doodles** in ToonTown Rewritten by simulating mouse clicks in a loop. Ai was used to build this tool and this documentation. Please enjoy but use at your own risk.
+# 🎮 ToonTown Rewritten Doodle Trainer 
+
+A simple automation tool designed to help **AFK train doodles** in ToonTown Rewritten by simulating mouse clicks in a loop.  
+AI was used to build this tool and this documentation. Please enjoy but use at your own risk.
+
+</td>
+<td>
+
+<img width="200" src="https://github.com/user-attachments/assets/885957be-12b2-493f-b07a-290cba184213" />
+
+</td>
+</tr>
+</table>
 
 ---
 
