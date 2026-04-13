@@ -65,18 +65,9 @@ namespace ClickerTool
 
             try
             {
-                string iconPath = Path.Combine(AppContext.BaseDirectory, "tray.ico");
-                if (File.Exists(iconPath))
-                {
-                    using var ico = new Icon(iconPath);
-                    Icon = (Icon)ico.Clone();
-                    ShowIcon = true;
-                }
-                else
-                {
-                    Icon = SystemIcons.Application;
-                    ShowIcon = true;
-                }
+                using var ms = new MemoryStream(Properties.Resources.tray);
+                Icon = new Icon(ms);
+                ShowIcon = true;
             }
             catch
             {
